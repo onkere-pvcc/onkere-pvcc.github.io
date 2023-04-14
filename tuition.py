@@ -39,9 +39,9 @@ def main():
 
 def get_user_data():
         global inout, numcredits, scholarshipamt
-        inout = int(input("Enter a 1 for IN-STATE; enter a 2 for OUT-OF-STATE: 1"))
-        numcredits = int(input("Number of credits registered for: 6"))
-        scholarshipamt = float(input("Scholarship amount received: 800"))
+        inout = int(input("Enter a 1 for IN-STATE; enter a 2 for OUT-OF-STATE: "))
+        numcredits = int(input("Number of credits registered for: "))
+        scholarshipamt = float(input("Scholarship amount received: "))
 
 def perform_calculations():
         global tuitionfee, capitalfee, institutionfee, activityfee, totalowed, balance
