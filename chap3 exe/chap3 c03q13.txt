@@ -1,0 +1,8 @@
+import turtle
+
+# Create a turtle and assign it to a variable
+my_turtle = turtle.Turtle()
+
+# Check the type of the variable
+print(type(my_turtle))  # Output: <class 'turtle.Turtle'>
+In this example, my_turtle is an instance of the turtle.Turtle class, and its type is <class 'turtle.Turtle'>.

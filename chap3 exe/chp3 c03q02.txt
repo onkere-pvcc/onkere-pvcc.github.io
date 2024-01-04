@@ -1,0 +1,9 @@
+Attributes (Qualities) of a Cellphone Object:
+1. **Model:** one plus 10pro
+2. **Color:** black
+3. **Storage Capacity:** 128GB
+
+Methods (Actions) of a Cellphone Object:
+1. **Make a Call:** The cellphone can initiate voice calls to other phone numbers.
+2. **Send Text Messages:** It can send and receive text messages (SMS) to and from other phone numbers.
+3. **Browse the Internet:** The cellphone can connect to the internet and allow users to browse websites, access online services, and download content.

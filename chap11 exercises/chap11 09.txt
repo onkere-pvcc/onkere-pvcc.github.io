@@ -1,0 +1,24 @@
+The relationship between " ".join(song.split()) and song is:
+
+- song.split() splits the string on whitespace into a list of words
+- " ".join() joins the list back into a string with spaces between each word
+
+In general:
+
+- If song has no extra whitespace (like leading/trailing whitespace or multiple spaces between words), then " ".join(song.split()) will return a string identical to song.
+
+- If song has any extra whitespace, " ".join(song.split()) will remove it by splitting on whitespace, then joining with exactly one space between words. 
+
+So they will be the same if song has no extra whitespace. They will be different if song has any extra whitespace, in which case " ".join(song.split()) returns a 'cleaned' version with extra whitespace removed.
+
+Some examples:
+
+- song = "The rain in Spain..." 
+   --> No extra whitespace, so they are the same
+
+- song = "The   rain    in Spain..." 
+   --> Extra whitespace, so they are different:
+      " ".join(song.split()) = "The rain in Spain..."  
+
+- song = "  The rain in Spain...  " 
+   --> Leading/trailing whitespace, so they are different again

@@ -1,0 +1,14 @@
+The output of the given program will be:
+
+
+Test 1: False
+Test 2: True
+Here's a detailed explanation of the results:
+
+In lines 1 and 2, two lists this and that are created. Both lists contain the same elements, but they are separate objects in memory.
+
+In line 3, the print statement compares whether this and that are the same object using the is operator. Since they are separate objects, the result is False, and "Test 1: False" is printed.
+
+In line 4, that is assigned the reference to the same list as this. Now, both this and that refer to the same list in memory.
+
+In line 5, the print statement again compares whether this and that are the same object using the is operator. Since they now both refer to the same list, the result is True, and "Test 2: True" is printed.
